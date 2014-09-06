@@ -1,6 +1,5 @@
 package in.mgp.say;
 
-import java.security.KeyStore.Entry;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,7 +28,7 @@ public class Numcount {
 		 if(entry.getValue() % 2 == 0) {
 			 outputMap.put(entry.getKey(),"Even" );
 			 
-			 System.out.println(" Eveen " + entry.getKey());
+			 System.out.println(" Even " + entry.getKey());
 		 }
 		 else {
 			 outputMap.put(entry.getKey(), "Odd");
